@@ -1,0 +1,10 @@
+/* 
+ est es la sintaxis para seleccion por atruburo
+ lo podemos g¿hacer directamente la atributo o al valor del atributo
+*/
+a[target="_top"]{
+ background-color: green;
+}
+input[type="number"]{
+    background-color: brown;
+}

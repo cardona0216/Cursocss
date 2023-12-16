@@ -1,0 +1,28 @@
+h1{
+    background-color: blue;
+    color: aliceblue;
+}
+h1{
+    background-color: green;
+    color:blue;
+}
+p{
+    background-color: pink;
+    color: aqua;
+}
+a{
+    background-color: yellow !important;
+    color: black;
+}
+
+
+/* !important
+ esta propieda lo que hace es que si quisieramos que un archivo que tenga menos geranquia
+ pisar el estilo lo hariamos con la regla important esto quiere decir que este pisara el estilo
+ que tenga
+ El uso excesivo de !important puede dificultar el mantenimiento del código y la resolución de
+ problemas en el estilo de una página web, ya que anula la cascada natural de estilos en CSS.
+ Se recomienda utilizarlo con moderación y preferiblemente encontrar formas alternativas de manejar
+ la prioridad de estilos,
+ como escribir selectores más específicos o reorganizando la estructura de las reglas de estilo.
+*/

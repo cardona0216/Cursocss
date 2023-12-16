@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    width:500px;
+    transition: opacity 2s ease-in-out 0.3s, width 5s linear  ;
+}
+
+img:hover{
+ opacity: 0.5;
+ width:800px;
+ 
+ /* transition-property: opacity;
+ transition-duration: 2s;
+ transition-timing-function: ease-in-out;
+ transition-delay: 0.3s ; */
+
+} 
+
+
+
+
+@keyframes cuadrado{
+    0%{
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+    25%{
+        background-color: blue;
+        left: 200px;
+        top: 0;
+    }
+    50%{
+        background-color: green;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: green;
+        left:0;
+        top: 200px;
+    }
+    100%{
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+
+} 

@@ -1,0 +1,24 @@
+/* sintaxis
+    selector::pseudoelemento{
+        propiedad:valor
+    }
+*/
+
+p.primerparrafo::first-letter{
+    font-size: 3em;
+    color: red;
+}
+
+h1.titulo::after{
+    content: url(/assets/img/icons.png);
+}
+
+::marker{
+    color: red;
+    font-size: 3em;
+}
+
+::selection{
+    background-color: white;
+    color:red;
+}

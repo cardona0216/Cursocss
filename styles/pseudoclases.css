@@ -1,0 +1,44 @@
+
+/* aqui tenemos la sintaxis de como se escriben
+    elemento:pseudoelemneto{
+        atributo:valor
+    }
+*/
+
+
+/* a:link{
+   color: black;
+   text-decoration: none;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+   color: pink; 
+   background-color: red;
+}
+
+a:active{
+    background-color:purple ;
+    color: black;
+} */
+
+/* p{
+    display: none;
+    background-color:yellow ;
+    padding: 20px;
+}
+
+div:hover p{
+    display: block;
+} */
+
+p:last-child{
+    background-color: blue;
+}
+
+input:focus{
+    background-color: aqua;
+}

@@ -1,0 +1,16 @@
+
+div>p{ /* selctor de hijo */
+    background-color: yellow;
+}
+
+/* div p{  selctor todo lo que este dentro del div con p */ 
+    /* background-color: red; */
+/* } */
+
+div+p{/* selctor del primer hermano adyacente */
+    background-color: blue;
+}
+
+div~p{ /* selctor general de los hermanos */
+    background-color: green;
+}

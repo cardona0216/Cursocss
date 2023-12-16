@@ -1,0 +1,394 @@
+
+
+.flex-container-column{
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+}
+
+.flex-container-column > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    font-size: 1.5em;
+}
+
+
+
+.flex-container-row{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+}
+
+.flex-container-row > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    font-size: 1.5em;
+}
+
+.flex-container-row-reverse{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row-reverse;
+}
+
+.flex-container-row-reverse > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    font-size: 1.5em;
+}
+
+
+
+.flex-container-column-reverse{
+    display: flex;
+    background-color: aqua;
+    flex-direction: column-reverse;
+}
+
+.flex-container-column-reverse > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    font-size: 1.5em;
+}
+
+.flex-container-flex-wrap{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-container-flex-wrap > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    font-size: 1.5em;
+}
+
+.flex-container-flex-wrap-reverse{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    
+}
+
+.flex-container-flex-wrap-reverse > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    font-size: 1.5em;
+}
+
+
+.justify-content-flex-start{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-start;
+}
+
+.justify-content-flex-start > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    font-size: 1.5em;
+}
+
+.justify-content-flex-end{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.justify-content-flex-end > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    font-size: 1.5em;
+}
+
+
+.justify-content-center{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.justify-content-center > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    font-size: 1.5em;
+}
+
+.justify-content-space-between{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.justify-content-space-between > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    font-size: 1.5em;
+}
+
+
+.justify-content-space-around{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.justify-content-space-around > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    font-size: 1.5em;
+}
+
+.justify-content-space-evenly{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.justify-content-space-evenly > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    font-size: 1.5em;
+}
+
+
+
+.align-items-flex-start{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    height: 500px;
+
+}
+
+.align-items-flex-start > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    height: 50px;
+}
+
+
+.align-items-flex-end{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+    height: 500px;
+
+}
+
+.align-items-flex-end > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    height: 50px;
+}
+
+
+.align-items-center{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 500px;
+
+}
+
+.align-items-center > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.align-items-stretch{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+    height: 500px;
+
+}
+
+.align-items-stretch > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    /* width: 50px;
+    height: 50px; */
+}
+
+.align-content-flex-start{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start ;
+
+    height: 500px;
+
+}
+.align-content-flex-start > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    
+}
+
+.align-content-flex-start > div:not(.distinta){
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    height: 50px;
+}
+
+
+.distinta{
+  width: 150px;
+  height: 150px;  
+}
+
+
+
+
+.align-content-flex-end{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end ;
+
+    height: 500px;
+
+}
+.align-content-flex-end > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    
+}
+
+.align-content-flex-end > div:not(.distinta){
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    height: 50px;
+}
+
+
+.distinta{
+  width: 150px;
+  height: 150px;  
+}
+
+
+
+.align-content-center{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+
+    height: 500px;
+
+}
+.align-content-center > div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    
+}
+
+.align-content-center > div:not(.distinta){
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    height: 50px;
+}
+
+
+.distinta{
+  width: 150px;
+  height: 150px;  
+}
+
+
+
+
+
+
+
+
+

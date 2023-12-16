@@ -1,0 +1,48 @@
+
+.grid{
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows:150px 150px 150px ;
+   
+
+}
+.grid> div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    
+}
+
+.grid > div:not(.distinta){
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    /* width: 50px; */
+    /* height: 50px; */
+}
+
+
+/* .distinta{
+  width: 150px;
+  height: 150px;  
+} */
+
+
+.grid-justify-items-start{
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: 200px 120px 200px;
+    grid-template-rows:200px 120px 200px ;
+    justify-items: start;
+}
+
+.grid-justify-items-start> div{
+    background-color: rgb(16, 139, 109);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    
+}

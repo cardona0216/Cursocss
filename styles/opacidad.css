@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: red;
+}
+p{
+    color: white;
+}
+
+img{
+    position: absolute;
+    top: 0;
+   
+}
+img:hover{
+    opacity: 0.9;
+}
